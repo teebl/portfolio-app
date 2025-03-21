@@ -22,3 +22,20 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+# TODO
+
+- [ ] About section
+- [ ] Blog section
+  - [ ] blog post page
+  - [ ] Migrate Blog posts over
+  - [ ] md-based blog posting ability
+- [ ] Contact me section
+- [ ] Portfolio section
+  - Portfolio card
+  - Image preview
+- [ ] Link icons in header
+- mobile
+   - [ ] navbar alternative
+   - [ ] 
