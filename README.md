@@ -26,6 +26,9 @@ Things you may want to cover:
 
 # TODO
 
+
+- [ ] General
+  - wider page?
 - [ ] About section
 - [ ] Blog section
   - [ ] blog post page
@@ -37,5 +40,5 @@ Things you may want to cover:
   - Image preview
 - [ ] Link icons in header
 - mobile
-   - [ ] navbar alternative
+   - [ ] mobile navbar
    - [ ] 

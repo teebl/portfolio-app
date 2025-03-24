@@ -1,0 +1,4 @@
+<% @blog_hashes.each do |file_name, blog_post| %>
+  <hr />
+  <%= blog_post.truncate_words(50, omission: " #{link_to("...Read more", blog_path(id: file_name.chomp('.md')))}", escape: false).html_safe %>
+<% end %>
