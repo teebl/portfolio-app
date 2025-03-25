@@ -20,7 +20,7 @@ class BlogController < ApplicationController
   end
 
   def markdown
-    @markdown ||= Redcarpet::Markdown.new(Redcarpet::Render::HTML)
+    @markdown ||= Redcarpet::Markdown.new(CustomRender)
   end
 
   def get_file_data(file_name)

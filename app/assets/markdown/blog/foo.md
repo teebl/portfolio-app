@@ -1,6 +1,6 @@
 # Foo
 
-![image](/assets/email.svg)
+![image](test.png "Plus a subtitle")
 
 ## Bar
 

@@ -29,12 +29,14 @@ Things you may want to cover:
 
 - [ ] General
   - wider page?
-- [ ] About section
+- [x] About section
 - [ ] Blog section
-  - [ ] blog post page
-  - [ ] Migrate Blog posts over
-  - [ ] md-based blog posting ability
-- [ ] Contact me section
+  - [x] blog post page
+  - [ ] Migrate Blog posts over?
+  - [x] md-based blog posting ability
+  - [ ] click to enlarge image
+- [x] Contact me section
+- [ ] Projects section
 - [ ] Portfolio section
   - Portfolio card
   - Image preview
