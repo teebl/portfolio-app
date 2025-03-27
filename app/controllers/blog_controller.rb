@@ -1,29 +1,22 @@
 class BlogController < ApplicationController
+  include MarkdownHelper
+
   def index
-    @blog_hashes = all_file_names.map do |file_name|
-      [ file_name.chomp(".md"), get_file_data(file_name) ]
+    @blog_hashes = blog_files.map do |file_name|
+      [ file_name, parse_markdown("blog/#{file_name}") ]
     end
   end
 
   def show
-    @blog_post = get_file_data(params[:id] + ".md")
+    @blog_post = parse_markdown("blog/#{params[:id]}")
   end
-
 
   private
-  def folder_path
-    Rails.root.join("app", "assets", "markdown", "blog")
-  end
+    def blogs_dir
+      Rails.root.join(markdown_dir, "blog")
+    end
 
-  def all_file_names
-    Dir.entries(folder_path).drop(2)
-  end
-
-  def markdown
-    @markdown ||= Redcarpet::Markdown.new(CustomRender)
-  end
-
-  def get_file_data(file_name)
-    markdown.render(File.read(Rails.root.join(folder_path, file_name)))
-  end
+    def blog_files
+      Dir.entries(blogs_dir).drop(2).map { |f| f.chomp(".md") }
+    end
 end
