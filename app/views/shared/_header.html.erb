@@ -1,0 +1,9 @@
+<header>
+  <% if title  %>
+    <h1><%= title %></h1>
+    <%= content_for(:title, "#{title} | trevor seibel") %>
+  <% end %>
+  <% if defined?(subtitle)  %>
+    <p><%= subtitle %></p>
+  <% end %>
+</header>

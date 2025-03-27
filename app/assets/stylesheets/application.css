@@ -146,11 +146,18 @@ figure {
   margin: 4rem;
  }
 
+ header {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  text-align: center;
+  margin: 4rem 0;
+ }
+
 /* --- nav --- */
 
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 40px;
 
@@ -190,3 +197,11 @@ footer {
   background-position: -19px -19px;
 }
 
+
+/* scoped */
+
+.blog__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

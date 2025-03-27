@@ -1,4 +1,2 @@
-<% if @blog_post[:title]  %>
-  <h1><%= @blog_post[:title] %></h1>
-<% end %>
+<%= render "shared/header", title: @blog_post[:title] %>
 <%= @blog_post[:html].html_safe %>
