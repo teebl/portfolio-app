@@ -2,18 +2,18 @@ class BlogController < ApplicationController
   include MarkdownHelper
 
   def index
-    @blog_hashes = blog_files.map do |file_name|
-      [ file_name, parse_markdown("blog/#{file_name}") ]
+    @parsed_blogs = blog_files.map do |source|
+      parse_markdown("#{source}")
     end
   end
 
   def show
-    @blog_post = parse_markdown("blog/#{params[:id]}")
+    @blog_post = parse_markdown("#{params[:id]}")
   end
 
   private
     def blogs_dir
-      Rails.root.join(markdown_dir, "blog")
+      Rails.root.join(markdown_dir)
     end
 
     def blog_files

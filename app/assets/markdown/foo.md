@@ -1,4 +1,6 @@
-# Foo
+---
+title: Heck yeah
+---
 
 ![image](test.png "Plus a subtitle")
 

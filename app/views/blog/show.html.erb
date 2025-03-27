@@ -1,1 +1,4 @@
-<%= @blog_post.html_safe %>
+<% if @blog_post[:title]  %>
+  <h1><%= @blog_post[:title] %></h1>
+<% end %>
+<%= @blog_post[:html].html_safe %>

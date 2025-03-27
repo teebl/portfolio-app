@@ -4,9 +4,10 @@ module MarkdownHelper
   end
 
   def parse_markdown(source)
-    file = File.read(get_path(source))
+    parsed = FrontMatterParser::Parser.parse_file(get_path(source))
+    metadata = parsed.front_matter
 
-    markdown.render(file)
+    metadata.merge({ html: redcarpet.render(parsed.content), source: source }).transform_keys(&:to_sym)
   end
 
   private
@@ -14,7 +15,7 @@ module MarkdownHelper
       Rails.root.join(markdown_dir, "#{source}.md")
     end
 
-    def markdown
-      @markdown ||= Redcarpet::Markdown.new(CustomRender)
+    def redcarpet
+      @redcarpet ||= Redcarpet::Markdown.new(CustomRender)
     end
 end

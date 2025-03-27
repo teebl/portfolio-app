@@ -4,8 +4,8 @@ In August 2017, Trevor began his journey into programming. His passion for build
 
 Before the career change, Trevor worked as a woodworker, preserving Canadian history in the nation's capital. Trevor is a graduate of Algonquin College's Heritage Carpentry and Joinery program.
 
-It might seem like quite the leap, but woodworking and coding share many skill sets. Order of operations, resource management, and a focus on product delivery are vital assets for both disciplines.
+The career change might seem like quite the leap, but woodworking and coding share many skill sets. Order of operations, resource management, and a focus on product delivery are vital assets for both disciplines.
 
-Trevor primarily codes using TypeScript and Ruby on Rails.
+Trevor primarily writes code in TypeScript and Ruby on Rails.
 
 [Back Home](/)
