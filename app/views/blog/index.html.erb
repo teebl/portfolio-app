@@ -1,16 +1,7 @@
-<header>
-  <h1>blog</h1>
-</header>
+<%= render "shared/header", title: "blog" %>
+
 <div class="blog__list">
   <% @parsed_blogs.each do |blog| %>
-    <div>
-      <% if blog[:title]  %>
-        <h2><%= blog[:title] %></h2>
-      <% end %>
-      <% if blog[:summary]  %>
-        <p><%= blog[:summary] %></p>
-      <% end %>
-      <p><%=  link_to("read more >>>", blog_path(id: blog[:source])) %></p>
-    </div>
+    <%= render "card", **blog %>
   <% end %>
 </div>
