@@ -1,6 +1,6 @@
 <div>
   <% if defined? title  %>
-    <h2><%=  link_to(title, blog_path(id: source)) %></h2>
+    <h2><%=  link_to(title, article_path(id: source)) %></h2>
   <% end %>
   <% if defined? summary  %>
     <p><%= summary %></p>

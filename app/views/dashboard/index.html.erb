@@ -3,10 +3,10 @@
 <div style="padding: 2rem;"></div>
 
 <section>
-  <%= cache @latest_blog do %>
-    <%= render "blog/card",
-      **@latest_blog,
-      title: "latest blog: #{@latest_blog[:title]}"
+  <%= cache @latest_article do %>
+    <%= render "articles/card",
+      **@latest_article,
+      title: "latest article: #{@latest_article[:title]}"
     %>
   <% end %>
 </section>

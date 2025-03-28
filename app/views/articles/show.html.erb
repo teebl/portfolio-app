@@ -1,0 +1,6 @@
+<%= render "shared/header", title: @article[:title] %>
+
+<%= @article[:html].html_safe %>
+
+<hr />
+<p><%= link_to '<<< back', :back %></p>

@@ -213,7 +213,7 @@ footer img {
 
 /* scoped */
 
-.blog__list {
+.article_list {
   display: flex;
   flex-direction: column;
   gap: 1rem;

@@ -1,7 +1,0 @@
-<%= render "shared/header", title: "blog" %>
-
-<div class="blog__list">
-  <% @parsed_blogs.each do |blog| %>
-    <%= render "card", **blog %>
-  <% end %>
-</div>
