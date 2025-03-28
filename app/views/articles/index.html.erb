@@ -1,4 +1,4 @@
-<%= render "shared/header", title: "posts" %>
+<%= render "shared/header", title: params[:path] %>
 
 <div class="card__list">
   <% @articles.each do |article| %>

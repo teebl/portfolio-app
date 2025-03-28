@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources "articles", only: [ "index", "show" ]
+  resources "articles", path: "articles/:path", only: [ "index", "show" ]
 
   get "about", to: "about#index"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

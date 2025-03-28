@@ -1,6 +1,6 @@
 <nav>
   <%= link_to "home", "/" %>
   <%= link_to "about", about_path %>
-  <%= link_to "posts", articles_path %>
-  <%= link_to "projects", "#portfolio" %>
+  <%= link_to "posts", articles_path(path: "posts") %>
+  <%= link_to "projects", articles_path(path: "projects") %>
 </nav>
