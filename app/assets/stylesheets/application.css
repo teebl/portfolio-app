@@ -5,10 +5,13 @@ html,
    background: #f6f6f6;
    line-height: 1.8;
    font-family: monospace;
-   min-height: 100%;
+   min-height: 100vh;
  }
  
  body {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
    margin: auto;
    padding: 1em;
    max-width: 720px;
@@ -171,20 +174,21 @@ nav img {
 /* --- footer --- */
 
 footer {
+  margin: auto 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 3rem;
   
-  width: 100%;
+  max-width: 100%;
   border-left: 1px solid grey;
   border-right: 1px solid grey;
   
   padding: 3rem 0;
-  margin: 4rem 0 0;
 
   text-align: center;
   font-family: Arial, sans-serif;
+
 }
 
 footer img {
@@ -200,8 +204,12 @@ footer img {
   background-image: radial-gradient(grey, 1px, transparent 0);
   background-size: 40px 40px;
   background-position: -19px -19px;
+
 }
 
+.content {
+  flex-grow: 2;
+}
 
 /* scoped */
 
