@@ -1,6 +1,7 @@
 ---
 title: Heck yeah
 summary: In which I share a demo thing. I'll need to learn how to multiline, probably.
+date: 1981-04-05
 ---
 
 ![image](test.png "Plus a subtitle")

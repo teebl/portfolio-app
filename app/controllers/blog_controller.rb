@@ -5,6 +5,8 @@ class BlogController < ApplicationController
     @parsed_blogs = blog_files.map do |source|
       parse_markdown("#{source}")
     end
+
+    @parsed_blogs = @parsed_blogs.sort_by { |b| b[:date] }.reverse
   end
 
   def show
