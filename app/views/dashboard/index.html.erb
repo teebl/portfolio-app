@@ -1,9 +1,14 @@
 <%= render "shared/header", title: 'trevor seibel', subtitle: 'Developer. Former Woodworker. Decent guy, generally speaking.' %>
 
+<div style="padding: 2rem;"></div>
+
 <section>
-  <h2>latest blog post</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, hic. Magni nisi tempore eos dolorem atque ex, sed culpa debitis quia neque explicabo libero assumenda dolores repellendus adipisci et omnis.</p>
-  <a href="/">read more...</a>
+  <%= cache @latest_blog do %>
+    <%= render "blog/card",
+      **@latest_blog,
+      title: "latest blog: #{@latest_blog[:title]}"
+    %>
+  <% end %>
 </section>
 
 <hr />
