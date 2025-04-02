@@ -14,7 +14,8 @@
 <hr />
 
 <section>
-  <h2>projects</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, hic. Magni nisi tempore eos dolorem atque ex, sed culpa debitis quia neque explicabo libero assumenda dolores repellendus adipisci et omnis.</p>
-  <a href="/">read more...</a>
+  <%= render "articles/card",
+      **@featured_project,
+      title: "featured project: #{@featured_project[:title]}"
+    %>
 </section>
