@@ -1,5 +1,5 @@
 ---
-title: This is a project
+title: Former Portfolio
 summary: My portfolio site, circa 2018.
 date: 2024-04-15
 image_path: old_portfolio_screenshot.png

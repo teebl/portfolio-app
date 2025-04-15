@@ -1,5 +1,5 @@
 ---
-title: This Website is Intentionally Left Boring
+title: This website is intentionally left boring
 summary: Boring is not the opposite of good.
 date: 2025-04-01
 ---
@@ -8,7 +8,9 @@ Earlier this year I decided to make a new portfolio site, and it's given me an o
 
 I've grown in many ways, and have a keener eye as a developer. Under the hood especially, there's a lot I'd have done differently. One standout aspect I like from the old site is the minimal design. It is selective in what tries to get your attention.
 
-The new site, the one you're on, shares that minimalist sensibility. The new site takes it even further, even at the cost of flashiness. There's no animation, no novel navbar. Most laymen would probably point at the old site as the more 'impressive', so why am I happier with the new site than with the old?
+![Image of the old website](old_portfolio_screenshot.png "The old portfolio")
+
+The new site, the one you're on, shares that minimalist sensibility. In fact, it takes it further, even at the cost of flashiness. There's no animation, no novel navbar. Most laymen would probably point at the old site as the more 'impressive', so why am I happier with the new site than with the old?
 
 The answer is that I now take the spirit of that minimalist sensibility, and extend it to my development style. Basically, I'm now walking the walk of minimalism.
 
