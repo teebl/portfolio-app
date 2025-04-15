@@ -1,5 +1,13 @@
 <%= render "shared/header", title: @article[:title] %>
 
+<figure>
+  <%= image_tag @article[:image_path], alt: @article[:image_alt] %>
+
+  <% if  @article[:image_subtitle]%>
+    <figcaption><%=  @article[:image_subtitle] %></figcaption>
+  <% end %>
+
+</figure>
 <%= @article[:html].html_safe %>
 
 <hr />
