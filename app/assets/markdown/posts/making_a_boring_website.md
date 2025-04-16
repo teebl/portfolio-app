@@ -1,5 +1,5 @@
 ---
-title: This website is intentionally left boring
+title: Making More of Minimalism
 summary: Boring is not the opposite of good.
 date: 2025-04-01
 ---
@@ -14,14 +14,15 @@ The new site, the one you're on, shares that minimalist sensibility. In fact, it
 
 The answer is that I now take the spirit of that minimalist sensibility, and extend it to my development style. Basically, I'm now walking the walk of minimalism.
 
-I'm building in Ruby on Rails, instead of React, and skipping any animations. I'm withholding [innovation tokens](https://mcfunley.com/choose-boring-technology) by refraining from adding any custom blog-post friendly frameworks, like Jekyll, or even external CSS packages.
+I've got some concessions for the sake of comfort: I'm building in a Ruby on Rails app. A web app is severe overkill, but it's a familiar technology for me, and expect a such a minor time-save using something like [Jekyll](https://jekyllrb.com/), that it wouldn't be worth the overall loss of flexibility.
 
-I've got one indulgence: I've added the functionality to process markdown files into HTML. When it comes to writing from thought, I've favoured markdown over HTML for some time.
+I've also added the functionality to process markdown files into HTML. When it comes to writing from thought, I've favoured markdown over HTML for some time. Ease-of-use is an important factor in the calculus of effective work.
 
 Now, some 5 or 6 years on from starting as a developer, my approach has shifted from 'what impressive tech can I leverage', to 'what is the simplest thing that delivers on what I need'. This asceticism fuels my best work.
 
-Dieter Rams, possibly the most famous designer alive, says it best: *The best design is as little design as possible*. The more contrivances and inventions and attention-grabbing elements available, the harder it is to capture the message at the core of any product, statement, or endeavour. 
+Dieter Rams, possibly the most famous designer alive, says it best: *The best design is as little design as possible*. The more contrivances and inventions and attention-grabbing elements available, the harder it is to capture the message at the core of any product, statement, or endeavour.
 
+The goal of minimalism isn't about doing less - it's about doing exactly what's needed, and doing it well. In web development as in design, the most powerful statements often come from what we choose *not* to include.
 
 ## Additional Reading
 
