@@ -3,19 +3,23 @@
 <div style="padding: 2rem;"></div>
 
 <section>
-  <%= cache @latest_article do %>
+  <h3>latest article</h3>
+  <div class="dashboard__card-wrapper">
     <%= render "articles/card",
       **@latest_article,
-      title: "latest article: #{@latest_article[:title]}"
+      title: @latest_article[:title]
     %>
-  <% end %>
+  </div>
 </section>
 
 <hr />
 
 <section>
-  <%= render "articles/card",
+  <h3>featured project</h3>
+  <div class="dashboard__card-wrapper">
+    <%= render "articles/card",
       **@featured_project,
-      title: "featured project: #{@featured_project[:title]}"
+      title: @featured_project[:title]
     %>
+  </div>
 </section>

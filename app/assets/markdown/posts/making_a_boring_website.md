@@ -23,7 +23,3 @@ Now, some 5 or 6 years on from starting as a developer, my approach has shifted 
 Dieter Rams, possibly the most famous designer alive, says it best: *The best design is as little design as possible*. The more contrivances and inventions and attention-grabbing elements available, the harder it is to capture the message at the core of any product, statement, or endeavour.
 
 The goal of minimalism isn't about doing less - it's about doing exactly what's needed, and doing it well. In web development as in design, the most powerful statements often come from what we choose *not* to include.
-
-## Additional Reading
-
-https://css-tricks.com/simple-boring/

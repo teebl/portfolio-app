@@ -1,7 +1,7 @@
 <header>
   <% if title  %>
-    <h1><%= title %></h1>
-    <%= content_for(:title, "#{title} | trevor seibel") %>
+    <h1><%= title.downcase %></h1>
+    <%= content_for(:title, "#{title.downcase} | trevor seibel") %>
   <% end %>
   <% if defined?(subtitle)  %>
     <p><%= subtitle %></p>
