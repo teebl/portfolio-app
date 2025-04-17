@@ -1,8 +1,30 @@
+:root {
+  --text-color: #212121;
+  --bg-color: #f6f6f6;
+  --border-color: #212121;
+  --code-bg: #212121;
+  --code-text: white;
+  --button-text: #f6f6f6;
+  --button-bg: #212121;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #f6f6f6;
+    --bg-color: #212121;
+    --border-color: #f6f6f6;
+    --code-bg: #f6f6f6;
+    --code-text: #212121;
+    --button-text: #212121;
+    --button-bg: #f6f6f6;
+  }
+}
+
 html,
 body {
-  color: #212121;
+  color: var(--text-color);
   font-size: 18px;
-  background: #f6f6f6;
+  background: var(--bg-color);
   line-height: 1.8;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
   Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -89,15 +111,15 @@ li > ol {
 
 pre,
 code {
-  color: white;
+  color: var(--code-text);
   overflow: auto;
-  background: #212121;
+  background: var(--code-bg);
 }
 
 td,
 th,
 table {
-  border: 1px solid #212121;
+  border: 1px solid var(--border-color);
   padding: 8px;
   border-collapse: collapse;
 }
@@ -123,7 +145,7 @@ select,
 legend,
 fieldset,
 textarea {
-  border: 1px solid #212121;
+  border: 1px solid var(--border-color);
   outline: none;
   padding: 3px 7px;
   background: none;
@@ -135,8 +157,8 @@ legend,
 input[type="reset"],
 input[type="button"],
 input[type="submit"] {
-  color: #f6f6f6;
-  background: #212121;
+  color: var(--button-text);
+  background: var(--button-bg);
 }
 
 input:disabled,

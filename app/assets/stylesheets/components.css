@@ -30,8 +30,8 @@ nav img {
   align-items: center;
   gap: 3rem;
   max-width: 100%;
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
   padding: 3rem 0;
   text-align: center;
   font-family: Arial, sans-serif;
@@ -42,6 +42,14 @@ nav img {
   vertical-align: middle; 
   display: inline-block;
   min-width: 1.5rem;
+  color: var(--text-color);
+}
+
+/* Small hack to contend with stubborn svg files */
+@media (prefers-color-scheme: dark) {
+  .footer img {
+    filter: invert(1) brightness(1.5);
+  }
 }
 
 /* --- article components --- */
@@ -53,5 +61,5 @@ nav img {
 
 .articles__card {
   padding-left: 1rem;
-  border-left: 1px dashed grey;
+  border-left: 1px dashed var(--border-color);
 }
