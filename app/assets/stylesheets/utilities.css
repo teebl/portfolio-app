@@ -1,0 +1,9 @@
+.dots {
+  background-image: radial-gradient(grey, 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
+}
+
+.content {
+  flex-grow: 2;
+}

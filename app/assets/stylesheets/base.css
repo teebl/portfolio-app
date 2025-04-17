@@ -1,0 +1,145 @@
+html,
+body {
+  color: #212121;
+  font-size: 18px;
+  background: #f6f6f6;
+  line-height: 1.8;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
+  min-height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+  padding: 1em;
+  max-width: 720px;
+}
+
+nav,
+main,
+header,
+footer,
+section,
+article {
+  margin: 1em 0;
+}
+
+dt,
+pre,
+form,
+table,
+fieldset,
+blockquote {
+  margin: 1em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: monospace;
+}
+
+a {
+  color: inherit;
+}
+
+pre {
+  padding: 1em;
+  border-radius: 3px;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+figure {
+  display: grid;
+  place-items: center;
+  padding: 0.5rem;
+  font-style: italic;
+  font-weight: 300;
+}
+
+figure img {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.1);
+}
+
+blockquote {
+  border-left: 4px solid #212121;
+  padding-left: 1em;
+}
+
+article h1 {
+  font-size: 2em;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style-position: inside;
+}
+
+li > ul,
+li > ol {
+  padding: 0 1em;
+}
+
+pre,
+code {
+  color: white;
+  overflow: auto;
+  background: #212121;
+}
+
+td,
+th,
+table {
+  border: 1px solid #212121;
+  padding: 8px;
+  border-collapse: collapse;
+}
+
+hr {
+  margin: 4rem;
+}
+
+header {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  text-align: center;
+  margin: 4rem 0;
+}
+
+input {
+  vertical-align: middle;
+}
+
+input,
+button,
+select,
+legend,
+fieldset,
+textarea {
+  border: 1px solid #212121;
+  outline: none;
+  padding: 3px 7px;
+  background: none;
+  border-radius: 3px;
+}
+
+button,
+legend,
+input[type="reset"],
+input[type="button"],
+input[type="submit"] {
+  color: #f6f6f6;
+  background: #212121;
+}
+
+input:disabled,
+button:disabled {
+  opacity: 0.8;
+}
