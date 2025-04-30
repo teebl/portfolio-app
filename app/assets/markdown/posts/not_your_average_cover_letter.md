@@ -18,7 +18,7 @@ Friction Point No. 3: I got tons of conflicting information about leaving with a
 
 I made it through Friction Point No. 4 by begging my way onto the bus. “You can just leave me at the border if I can’t get through.” (No idea what I’d do if that happened—the border had no tourist infrastructure at that hour, and local transit seemed inscrutable.)
 
-At the border, I waited in line after explaining my situation to the bus attendant, who said he’d “see what he can do.” As the line shrank—20 people, then 10, then 5—I grew more nervous. With one person ahead of me, the attendant returned: “I can get you through, but the fine is 4,000,000₫.” (About 210 CAD—twice the original visa cost.) A rip-off, but haggling risked getting stranded. Friction Point No. 5.
+At the border, I waited in line after explaining my situation to the bus attendant, who said he’d “see what he can do.” As the line shrank—20 people, then 10, then 5—I grew more nervous. With one person ahead of me, the attendant returned: “I can get you through, but the fine is 4,000,000₫.” (About 210 CAD—twice the original visa cost.) Clearly a rip-off, but I was in no position to barter. Friction Point No. 5.
 
 I sprinted to an ATM, grabbed the cash, and rushed back. The bus and all passengers were gone—even the attendant. After a few sweaty minutes, he reappeared, took the money, and led me to a side kiosk. A few muttered words later, I was waved through. I never even saw the money change hands. Friction Point No. 6.
 
