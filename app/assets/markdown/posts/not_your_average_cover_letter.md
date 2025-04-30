@@ -4,7 +4,7 @@ summary: Sharing a travel misadventure of archaic travel paperwork.
 date: 2025-04-30
 ---
 
-Sometimes it’s clear a company would appreciate a more conversational tone in the job application process. One example of this was an eVisa tech company I recently applied to. Instead of a regular cover letter, I decided to share my own visa experience from 2024.
+*Sometimes it’s clear a company would appreciate a more conversational tone in the job application process. One example of this was an eVisa tech company I recently applied to. Instead of a regular cover letter, I decided to share my own visa experience from 2024.*
 
 I’ll one-up the usual cover letter and share my travel visa story:
 
