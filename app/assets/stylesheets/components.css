@@ -57,6 +57,57 @@ nav img {
   transition: filter 0.2s ease;
 }
 
+/* --- contact form --- */
+.contact-page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.contact-form {
+  margin-top: 2rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px dotted var(--border-color);
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: monospace;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  font-family: monospace;
+  color: var(--text-color);
+  opacity: 0.7;
+}
+
+.contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.submit-btn {
+  padding: 0.5rem 1rem;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-btn:hover {
+  opacity: 0.7;
+}
+
 /* --- article components --- */
 .articles__list {
   display: flex;
