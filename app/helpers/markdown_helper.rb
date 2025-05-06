@@ -12,9 +12,25 @@ module MarkdownHelper
   end
 
   def parse_markdown_file(source)
-    parsed = FrontMatterParser::Parser.parse_file("#{markdown_dir("")}/#{source}.md")
+    file_path = "#{markdown_dir("")}/#{source}.md"
+    parsed = FrontMatterParser::Parser.parse_file(file_path)
 
-    parsed.front_matter.merge({ html: redcarpet.render(parsed.content), source: source }).transform_keys(&:to_sym)
+    front_matter = parsed.front_matter || {}
+    front_matter = front_matter.compact.transform_keys { |k| k&.to_sym || :unknown }
+
+    front_matter.merge({
+      html: redcarpet.render(parsed.content),
+      source: source,
+      date: front_matter[:date] || Date.today
+    })
+  rescue => e
+    Rails.logger.error "Failed to parse markdown file #{file_path}: #{e.message}"
+    {
+      title: "Error: #{source}",
+      html: "<p>This content could not be loaded.</p>",
+      source: source,
+      date: Date.today
+    }
   end
 
   private
