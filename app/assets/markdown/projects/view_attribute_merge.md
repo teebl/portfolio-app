@@ -20,7 +20,7 @@ This is a specialized Ruby gem that solves the frustrating problem of merging HT
 Slick Rails front-ends rely heavily on things like Stimulus.js, ViewComponents, and plain-old partials. ViewAttributeMerge eliminates the headache of manually managing attribute merging logic, reducing bugs and making your view code more maintainable.
 
 ```ruby
-Simple, intuitive API
+# Simple, intuitive API
 ViewAttributeMerge.attr_merge(
   { class: "btn", data: { controller: "modal" } },
   { class: "btn-primary", "data-action": "click->modal#open" }
