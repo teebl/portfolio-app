@@ -48,4 +48,10 @@ class ButtonComponent < ViewComponent::Base
 end
 ```
 
-[github repo](https://github.com/teebl/view_attribute_merge) | [rubygems](https://rubygems.org/gems/view_attribute_merge)
+
+
+
+Whether you're building complex ViewComponent hierarchies or just need cleaner attribute handling in your Rails views, ViewAttributeMerge provides a simple yet powerful solution to a common pain point in Rails development. Give it a try, and feel free to share any feedback :)
+
+## [github repo](https://github.com/teebl/view_attribute_merge)
+## [rubygems](https://rubygems.org/gems/view_attribute_merge)
