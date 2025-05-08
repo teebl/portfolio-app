@@ -132,6 +132,7 @@ header {
   border-right: 1px solid grey;
   text-align: center;
   margin: 4rem 0;
+  padding: 0 2rem;
 }
 
 input {
