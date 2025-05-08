@@ -109,8 +109,7 @@ li > ol {
   padding: 0 1em;
 }
 
-pre,
-code {
+pre {
   color: var(--code-text);
   overflow: auto;
   background: var(--code-bg);

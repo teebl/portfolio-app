@@ -19,7 +19,7 @@ module MarkdownHelper
     front_matter = front_matter.compact.transform_keys { |k| k&.to_sym || :unknown }
 
     front_matter.merge({
-      html: redcarpet.render(parsed.content),
+      html: markdown(parsed.content),
       source: source,
       date: front_matter[:date] || Date.today
     })
@@ -34,7 +34,18 @@ module MarkdownHelper
   end
 
   private
-    def redcarpet
-      @redcarpet ||= Redcarpet::Markdown.new(CustomRender)
-    end
+  def markdown(text)
+    extensions = {
+      autolink:           true,
+      highlight:          true,
+      superscript:        true,
+      disable_indented_code_blocks: true,
+      space_after_headers: true,
+      fenced_code_blocks: true
+    }
+
+    markdown = Redcarpet::Markdown.new(CustomRender, extensions)
+
+    markdown.render(text).html_safe
+  end
 end

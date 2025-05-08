@@ -43,6 +43,7 @@ gem "thruster", require: false
 # Markdown parsing
 gem "redcarpet"
 gem "front_matter_parser"
+gem "rouge"
 
 # Included to allow dates used in frontmatter in md files
 gem "safe_yaml"
