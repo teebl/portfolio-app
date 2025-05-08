@@ -4,7 +4,9 @@ module MarkdownHelper
   end
 
   def filenames(subfolder)
-    Dir.entries(markdown_dir(subfolder)).drop(2).map { |f| f.chomp(".md") }
+    Dir.entries(markdown_dir(subfolder))
+      .reject { |e| e.start_with?(".") }
+      .map { |f| f.chomp(".md") }
   end
 
   def parse_markdown_files(subfolder)
