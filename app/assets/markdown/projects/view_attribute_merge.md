@@ -1,6 +1,6 @@
 ---
 title: Making Rails Views Easier with a custom gem
-summary: merging HTML attributes in rails can be a pain. This gem makes it easier.
+summary: Merging HTML attributes in rails can be a pain. This gem makes it easier.
 date: 2024-05-08
 ---
 
